@@ -1,10 +1,14 @@
 import * as React from 'react';
-import {View, StyleSheet, TextInput} from 'react-native';
+import {View, 
+        StyleSheet, 
+        TextInput,
+        Button} from 'react-native';
 
 export const Login = () => {
     return(
         <View style={styles.main}>
             <TextInput placeholder="Логин"/>
+            <Button title="Войти"/>
         </View>
     )
 }
